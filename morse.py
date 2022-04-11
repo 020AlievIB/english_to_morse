@@ -1,4 +1,4 @@
-en = {'A': '.-',     'B': '-...',   'C': '-.-.',
+enToMorse = {'A': '.-',     'B': '-...',   'C': '-.-.',
             'D': '-..',    'E': '.',      'F': '..-.',
             'G': '--.',    'H': '....',   'I': '..',
             'J': '.---',   'K': '-.-',    'L': '.-..',
@@ -14,5 +14,5 @@ en = {'A': '.-',     'B': '-...',   'C': '-.-.',
             '9': '----.'
 }
 
-print(' '.join(en.get(x, '') for x in input('Input a word: ').upper()))
+print(' '.join(enToMorse.get(x, '') for x in input('Input a word: ').upper()))
 
