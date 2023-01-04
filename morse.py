@@ -1,4 +1,4 @@
-enToMorse = {
+en_to_morse = {
     'A': '.-',     'B': '-...',   'C': '-.-.',
     'D': '-..',    'E': '.',      'F': '..-.',
     'G': '--.',    'H': '....',   'I': '..',
@@ -15,4 +15,4 @@ enToMorse = {
     '9': '----.'
 }
 
-print(' '.join(enToMorse.get(x, '') for x in input('Input a word: ').upper()))
+print(' '.join(en_to_morse.get(x, '') for x in input('Input a word: ').upper()))
